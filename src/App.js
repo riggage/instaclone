@@ -13,8 +13,7 @@ const App = () => {
 
   return (
     <div className="App">
-      {user && <h1>{user}</h1>}
-      {user ? <h1>{user}</h1> : <h1>Please type something</h1>}
+      {user ? <h1>{user}</h1> : <h1>InstaFake</h1>}
       {!user ? <Login setUser={setUser} />: <Home />}
     </div>
   );

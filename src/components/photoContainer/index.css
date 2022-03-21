@@ -5,8 +5,3 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
-
-body {
-    display: flex;
-    justify-content: center;
-}

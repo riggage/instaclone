@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { createUser, login } from "../../utils";
+import "./index.css"
 
 export const Login = ({ setUser }) => {
   const [username, setUsername] = useState();
@@ -18,7 +19,7 @@ export const Login = ({ setUser }) => {
 
     return (
       <>
-        <form onSubmit={submitHandler}>
+        <form className="loginForm" onSubmit={submitHandler}>
           <input
             onChange={(event) => setUsername(event.target.value)}
             placeholder="Username"

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { PhotoContainer } from "../photoContainer";
+import "./index.css"
 
 export const Home = () => {
     const [photos, setPhotos] = useState([]);
